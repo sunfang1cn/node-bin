@@ -1,16 +1,19 @@
 {
     "author": "sunfang <kate.sf@alibaba-inc.com>",
     "name": "bin",
+    "keywords": ["buffer", "utils", "binary"],
     "description": "binary buffer helper",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "repository": {
         "url": "https://github.com/sunfang1cn/node-bin"
     },
     "main": "index.js",
-    "dependencies": {},
+    "dependencies": {
+        "iconv-lite": ">=0.1.2"
+    },
     "devDependencies": {},
     "optionalDependencies": {},
     "engines": {
-        "node": "*"
+        "node": ">=0.6.0"
     }
 }
